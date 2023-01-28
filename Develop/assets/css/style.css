@@ -75,6 +75,7 @@ p {
     margin-left: 20px;
 }
 
+/* consolidated class selectors for "content" under the main section */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,25 +85,12 @@ p {
     color: #ffffff;
 }
 
-/* consolidated class selectors */
-/* .search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-
-/* consolidated class selectors */
+/* consolidated class selectors for images under "content" class */
 .content img {
     max-height: 200px;
 }
 
-/* consolidated class selectors */
+/* consolidated class selectors for h2s under "content" class */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -119,26 +107,22 @@ p {
     background-color: #2589bd;
 }
 
-/* consolidated class selectors for benefits class*/
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+/* consolidated id selectors under "benefits" class */
+#benefit-lead,
+#benefit-brand,
+#benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* consolidated class selectors for benefits class*/
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+/* consolidated class selectors for h3s under "benefits" class */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* consolidated class selectors for benefits class*/
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+/* consolidated class selectors for images under "benefits" class*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
