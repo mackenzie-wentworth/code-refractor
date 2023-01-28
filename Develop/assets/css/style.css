@@ -108,9 +108,7 @@ p {
 }
 
 /* consolidated id selectors under "benefits" class */
-#benefit-lead,
-#benefit-brand,
-#benefit-cost {
+.benefits-subsection {
     margin-bottom: 32px;
     color: #ffffff;
 }
