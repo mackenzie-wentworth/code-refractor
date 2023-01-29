@@ -32,9 +32,9 @@ body {
     font-size: 20px;
 }
 
-/* .header div ul {
+.header div ul {
     list-style-type: none;
-} */
+}
 
 .header div ul li {
     display: inline-block;
@@ -69,6 +69,7 @@ p {
     margin-left: 25px;
 }
 
+/* grouped together all content selectors */
 .content {
     width: 75%;
     display: inline-block;
@@ -96,6 +97,7 @@ p {
     font-size: 36px;
 }
 
+/* grouped together all benefits selectors */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,7 +110,7 @@ p {
 }
 
 /* consolidated id selectors under "benefits" class */
-.benefits-subsection {
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -119,7 +121,7 @@ p {
     text-align: center;
 }
 
-/* consolidated class selectors for images under "benefits" class*/
+/* consolidated class selectors for images under "benefits" class */
 .benefits img {
     display: block;
     margin: 10px auto;
